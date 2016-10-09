@@ -25,4 +25,9 @@ public class Action implements Serializable {
 	public void setFlag(String flag) {
 		this.flag = flag;
 	}
+	@Override
+	public String toString() {
+		return "Action [actid=" + actid + ", title=" + title + ", flag=" + flag + "]";
+	}
+	
 }
